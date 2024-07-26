@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Ekler Terminal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="pngicon.png" type="image/png">
+</head>
+<body>
+    <div class="terminal">
+        <pre>
+            <div class="intro">
+                <div class="title">
+  
+██   █     ▄███▄      ▄      ▄███▄   █  █▀ █     ▄███▄   █▄▄▄▄ 
+█ █  █     █▀   ▀ ▀▄   █     █▀   ▀  █▄█   █     █▀   ▀  █  ▄▀ 
+█▄▄█ █     ██▄▄     █ ▀      ██▄▄    █▀▄   █     ██▄▄    █▀▀▌  
+█  █ ███▄  █▄   ▄▀ ▄ █       █▄   ▄▀ █  █  ███▄  █▄   ▄▀ █  █  
+   █     ▀ ▀███▀  █   ▀▄     ▀███▀     █       ▀ ▀███▀     █   
+  █                ▀                  ▀                   ▀    
+ ▀                                                             
+                </div>
+                <div class="welcome">Welcome to my terminal. Have fun!</div>
+                <div class="instructions">Type <span class="command">help</span> to get started.</div>
+            </div>
+            <div id="output"></div>
+            <div class="input-line">
+                <span class="prompt">guest:ekler-mac~$</span>
+                <div class="input-container">
+                    <input type="text" id="input" autofocus autocomplete="off">
+                </div>
+            </div>
+        </pre>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
